@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: auto;
+}
+
+header{
+    background-color: #F7B2BA;
+    position: relative;
+}
+
+header img {
+    display: block;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 4em;
+    font-family: 'Readex+Pro', sans-serif;
+}
+
+#logo-ods{
+    width: 180px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#icon-search{
+    margin-left: 1370px;
+    position: absolute;
+    bottom: 143px;
+    left: 20px;
+}
+
+#icon-three-bar{
+    margin-left: 1460px;
+    position: absolute;
+    bottom: 150px;
+}
+
+#menu{
+    background-color: #36603A;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+#item1{
+    padding-left: 40px;
+}
+
+#item10{
+    padding-right: 40px;
+}
+
+#item1, #item2, #item3,
+#item4, #item5, #item6,
+#item7, #item8, #item9,
+#item10 {
+    font-family: 'Readex+Pro', sans-serif;
+    font-weight: 700;
+}
+
+#item1, #item2, #item3,
+#item4, #item5, #item6,
+#item7, #item8, #item9{
+    border-right: solid black;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#subtitulo{
+    text-align: center;
+    background-color: #E4E4E4;
+    padding: 30px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+section{
+    background-color: #36603A;
+    border-right: 15px solid #66926A;
+    border-left: 15px solid #66926A;
+    font-family: 'Lora';
+}
+
+.texto{
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    padding-bottom: 25px;
+    font-size: 2em;
+}
+
+#img-grafico{
+    padding-top: 40px;
+    text-align: center;
+}
+
+footer{
+    background-color: #E4E4E4;
+    padding: 50px;
+}
+
+footer img {
+    display: block;
+}
+
+#logo-ods-2{
+    max-height: 200px;
+    height: auto;
+}

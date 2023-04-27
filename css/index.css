@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: auto;
+}
+
+header{
+    background-color: #F7B2BA;
+    position: relative;
+}
+
+header img {
+    display: block;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 4em;
+    font-family: 'Readex+Pro', sans-serif;
+    font-weight: 700;
+}
+
+#logo-ods{
+    width: 180px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#icon-search{
+    margin-left: 1370px;
+    position: absolute;
+    bottom: 143px;
+    left: 20px;
+}
+
+#icon-three-bar{
+    margin-left: 1460px;
+    position: absolute;
+    bottom: 150px;
+}
+
+#menu{
+    background-color: #36603A;
+    color: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#item1{
+    padding-left: 40px;
+}
+
+#item10{
+    padding-right: 40px;
+}
+
+#item1, #item2, #item3,
+#item4, #item5, #item6,
+#item7, #item8, #item9,
+#item10 {
+    font-family: 'Readex+Pro', sans-serif;
+    font-weight: 700;
+}
+
+#item1, #item2, #item3,
+#item4, #item5, #item6,
+#item7, #item8, #item9{
+    border-right: solid black;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+#subtitulo{
+    text-align: center;
+    background-color: #E4E4E4;
+    padding: 30px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+section{
+    background-color: #66926A;
+    padding: 20px;
+}
+
+.metas{
+    background-color: #36603A;
+    border: 2px solid #36603A;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+h2, h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-weight: 800;
+}
+
+h3{
+    font-weight: 900;
+}
+
+#divlink{
+    text-align: center;
+    padding: 60px;
+}
+
+#link{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+}
+
+footer{
+    background-color: #E4E4E4;
+    padding: 50px;
+}
+
+footer img {
+    display: block;
+}
+
+#logo-ods-2{
+    max-height: 200px;
+    height: auto;
+}
